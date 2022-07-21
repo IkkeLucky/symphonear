@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #85bb65;
+    font-family: 'Montserrat', sans-serif, verdana;
+    font-family: 'Open Sans', sans-serif, verdana;
+    color: black;
+}
+
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.navlinks li{
+    list-style: none;
+}
+
+
+.navlinks a{
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.navlinks a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.navlinks a:visited{
+    color: black;
+    font-weight: bold;
+}
+
